@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="png" sizes="16x16" href="favicon.ico">
+  <title> why hyo</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+* {box-sizing: border-box;}
+
+      body {margin: 0;  font-family: Arial;  font-size: 17px;}
+
+        #myVideo { position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; z-index: 0}
+        .wrap{width: 2000px; height: 1000px; margin: auto; position: fixed;bottom: 0; color: #f1f1f1; padding: 20px; display: block; position: relative;}
+        .wrap h1{color: white; text-align:left; font-size: 40px; margin-left: 10%; margin-top: 20%;}
+        .wrap p{font-size: 10px; text-align: left; margin-left: 10%;}
+        .wrap img{position: absolute; display: block; }
+          .img1{ animation: ro1 20s infinite;}
+            @keyframes ro1{
+              from {}
+              to{transform: rotate(200deg)} }
+          .img2{ animation: ro1 50s infinite;}
+            @keyframes ro1{
+              from {}
+              to{transform: rotate(200deg)} }
+
+        .wrap-1 {width: 3000px; display: block; position: fixed; top: 30%; color:#f1f1f1; bottom: 0; margin: auto; margin-left: 10%; position: absolute;}
+        .wrap-1 h2{margin-top: 40%; font-size: 20px;}
+        .wrap-1 p{font-size: 10px; margin-left: 15%;}
+
+        footer{width: 3000px; margin: auto; margin-left: 2%; line-height: 20px; margin-top: 99%; display: block; color: white; font-size: 10px; position: absolute; text-align: left;}
+
+  </style>
+</head>
+  
+  <body>
+      <video autoplay muted loop id="myVideo">
+        <source src="park.mp4" type="video/mp4">
+        <source src="mv.mp3" type="audio/mp3">
+      </video>
+
+      <audio controls>
+        <source src="park.ogg" type="audio/ogg">
+        <source src="park.mp3" type="audio/mpeg">
+      </audio>
+
+    <div class="wrap">
+      <h1>Why Hyo</h1>
+      <p>그렇다면 박효신, 왜 그여야만 할까?</p>
+      <p>일단 잘생겼어...</p>
+      <img src="eye.png" class="img1" style="width: 300px; height: auto; margin-bottom: 0; margin-left: 7%">
+      <img src="nose.png" class="img2" style="width: 300px; height: auto; margin-top: 50px; padding-top: 0;margin-left: 8%">
+      <p>노래는 말할것두 없구</p>
+    </div>
+
+    <div class="wrap-1">
+      <h2>완벽주의자</h2>
+      <p>완벽주의자래요</p>
+      <p>개깐깐.</p>
+    </div>
+</body>
+
+ <footer>
+  <p>Posted by: Park sa rah</p>
+  <p>Contact information: <a href="mailto:secoo79@naver.com">secoo79@naver.com</a>.</p>
+</footer>
+
+</html>
